@@ -13,8 +13,10 @@
 \BOOKMARK [3][-]{subsubsection.7.2.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.7.2}% 13
 \BOOKMARK [1][-]{section.8}{Visualization results}{}% 14
 \BOOKMARK [2][-]{subsection.8.1}{Visualization of the flow of conversation with classification of questions and answers}{section.8}% 15
-\BOOKMARK [2][-]{subsection.8.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{section.8}% 16
-\BOOKMARK [2][-]{subsection.8.3}{User Evaluation}{section.8}% 17
-\BOOKMARK [3][-]{subsubsection.8.3.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.8.3}% 18
-\BOOKMARK [3][-]{subsubsection.8.3.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.8.3}% 19
-\BOOKMARK [1][-]{section.9}{Conclusion}{}% 20
+\BOOKMARK [0][-]{part.1}{I Bar chart}{}% 16
+\BOOKMARK [0][-]{part.2}{II Utterance classification manual correction function}{}% 17
+\BOOKMARK [1][-]{subsection.8.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{part.2}% 18
+\BOOKMARK [2][-]{subsection.8.3}{User Evaluation}{subsection.8.2}% 19
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.8.3}% 20
+\BOOKMARK [3][-]{subsubsection.8.3.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.8.3}% 21
+\BOOKMARK [1][-]{section.9}{Conclusion}{part.2}% 22
