@@ -1,0 +1,94 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Feynman1963118}
+R.~Feynman, F.~{Vernon Jr.}, The theory of a general quantum system interacting
+  with a linear dissipative system, Annals of Physics 24 (1963) 118--173.
+\newblock \href {http://dx.doi.org/10.1016/0003-4916(63)90068-X}
+  {\path{doi:10.1016/0003-4916(63)90068-X}}.
+
+\bibitem{Dirac1953888}
+P.~Dirac, The lorentz transformation and absolute time, Physica 19~(1-–12)
+  (1953) 888--896.
+\newblock \href {http://dx.doi.org/10.1016/S0031-8914(53)80099-6}
+  {\path{doi:10.1016/S0031-8914(53)80099-6}}.
+
+\bibitem{zokad}
+S.~Noda, Continued Adlerian psychology talking seminar ? Family communication
+  of courage pickles, Anima Shobo Publishing, 1991.
+
+\bibitem{shou}
+Z.~H. Kato, K.~Tsuchida, Application of 3d spiral graph visualization to the
+  psychological data, International Journal of Electronics and Computer Science
+  Engineering, Vol. 2, No. 4, pp.1219-1230.
+
+\bibitem{taskdriven}
+E.~Alexander, M.~Gleicher, Task-driven comparison of topic models, IEEE
+  TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS 22~(1) (2016) 320--329.
+
+\bibitem{itoh2010interactive}
+I.~M. M.~K. Masaru, An interactive visualization framework for time-series of
+  web graphs in a 3d environment, Information Visualisation, International
+  Conference, IEEE 14~(4) (2010) 54--60.
+
+\bibitem{el2016contovi}
+M.~El-Assady, V.~Gold, C.~Acevedo, C.~Collins, D.~Keim, Contovi: Multi-party
+  conversation exploration using topic-space views, in: Computer Graphics
+  Forum, Vol.~35, Wiley Online Library, 2016, pp. 431--440.
+
+\bibitem{tat2002visualising}
+A.~Tat, M.~S.~T. Carpendale, Visualising human dialog, in: Information
+  Visualisation, 2002. Proceedings. Sixth International Conference on, IEEE,
+  2002, pp. 16--21.
+
+\bibitem{bergstrom2007seeing}
+T.~Bergstrom, K.~Karahalios, Seeing more: visualizing audio cues,
+  Human-Computer Interaction--INTERACT 2007 (2007) 29--42.
+
+\bibitem{van2009mapping}
+F.~Van~Ham, M.~Wattenberg, F.~B. Vi{\'e}gas, Mapping text with phrase nets,
+  IEEE transactions on visualization and computer graphics 15~(6).
+
+\bibitem{tanaka}
+R.~O. Shotaro~Tanaka, Makoto~Okabe, An interface for reminding of the content
+  of the story., Proceedings of 55th Programming Symposium 2014 (2014) 7--15.
+
+\bibitem{grad2002preamble}
+F.~P. Grad, The preamble of the constitution of the world health organization,
+  Bulletin of the World Health Organization 80~(12) (2002) 981--981.
+
+\bibitem{ad2}
+H.~L. Ansbacher, R.~R. Ansbacher, THE INDIVIDUAL PSYCHOLOGY OF ALFRED ADLER,
+  Haper Row Publishers Inc, New York, 1956.
+
+\bibitem{kamata2002}
+M.~Kamata, A study on separation of issues in counseling - try to understand
+  visually impaired using communication arrows ?, Adlerian 16~(2) (2002)
+  75--80.
+
+\bibitem{kuromojijs}
+T.~Asano, kuromoji.js, \url{https://github.com/takuyaa/kuromoji.js}.
+
+\bibitem{kuromoji}
+Atilika, Kuromoji morphological analyzer, \url{http://www.atilika.org}.
+
+\bibitem{kawahara2006fully}
+D.~Kawahara, S.~Kurohashi, A fully-lexicalized probabilistic model for japanese
+  syntactic and case structure analysis, in: Proceedings of the main conference
+  on Human Language Technology Conference of the North American Chapter of the
+  Association of Computational Linguistics, Association for Computational
+  Linguistics, 2006, pp. 176--183.
+
+\bibitem{juman}
+H.~Morita, D.~Kawahara, S.~Kurohashi, Morphological analysis for unsegmented
+  languages using recurrent neural network language model., in: EMNLP, 2015,
+  pp. 2292--2297.
+
+\bibitem{vand3}
+R.~van Dierendonck, S.~van Tienhoven, T.~Elid, D3. js: Data-driven documents.
+
+\end{thebibliography}

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: elsarticle-template.aux
+The style file: elsarticle-num.bst
+Database file #1: mybibfile.bib
+Warning--can't use both volume and number fields in el2016contovi
+Warning--empty journal in kuromojijs
+Warning--empty journal in kuromoji
+Warning--empty journal in vand3
+You've used 19 entries,
+            2937 wiz_defined-function locations,
+            788 strings with 8277 characters,
+and the built_in function-call counts, 5327 in all, are:
+= -- 505
+> -- 127
+< -- 5
++ -- 55
+- -- 36
+* -- 313
+:= -- 693
+add.period$ -- 21
+call.type$ -- 19
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 182
+empty$ -- 636
+format.name$ -- 47
+if$ -- 1414
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 21
+newline$ -- 67
+num.names$ -- 19
+pop$ -- 133
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 393
+stack$ -- 0
+substring$ -- 297
+swap$ -- 50
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 46
+width$ -- 21
+write$ -- 158
+(There were 4 warnings)

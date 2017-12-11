@@ -1,0 +1,285 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Elsevier \LaTeX\ template\tnoteref{mytitlenote}}
+\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+  Conversation analysis plays important roles not only in knowing conversation text but also in making the quality of conversation better. Also, it is important to grasp who got and who was gotten the behavior to from the series of sentences for every scene,
+  In this study, we developed a system visualizing the flow of conversation in counselling. In our proposed system, we visualized the distribution change along the progress of time with bar chart for the results by the category classification base on the Adlerian psychology included in phonetic transcription of the counselling. We evaluated on the functions of this system by expert counselors as the system users, and discussed based on some review comments in evaluation.
+\end{abstract}
+
+\begin{keyword}
+\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{The Elsevier article class}
+
+\paragraph{Installation} If the document class \emph{elsarticle} is not available on your computer, you can download and install the system package \emph{texlive-publishers} (Linux) or install the \LaTeX\ package \emph{elsarticle} using the package manager of your \TeX\ installation, which is typically \TeX\ Live or Mik\TeX.
+
+\paragraph{Usage} Once the package is properly installed, you can use the document class \emph{elsarticle} to create a manuscript. Please make sure that your manuscript follows the guidelines in the Guide for Authors of the relevant journal. It is not necessary to typeset your manuscript in exactly the same way as an article, unless you are submitting to a camera-ready copy (CRC) journal.
+
+\paragraph{Functionality} The Elsevier article class is based on the standard article class and supports almost all of the functionality of that class. In addition, it features commands and options to format the
+\begin{itemize}
+\item document style
+\item baselineskip
+\item front matter
+\item keywords and MSC codes
+\item theorems, definitions and proofs
+\item lables of enumerations
+\item citation style and labeling.
+\end{itemize}
+
+\section{Front matter}
+
+The author names and affiliations could be formatted in two ways:
+\begin{enumerate}[(1)]
+\item Group the authors per affiliation.
+\item Use footnotes to indicate the affiliations.
+\end{enumerate}
+See the front matter of this document for examples. You are recommended to conform your choice to the journal you are submitting to.
+
+\section{Bibliography styles}
+
+There are various bibliography styles available. You can select the style of your choice in the preamble of this document. These styles are Elsevier styles based on standard styles like Harvard and Vancouver. Please use Bib\TeX\ to generate your bibliography and include DOIs whenever available.
+
+Here are two sample references: \cite{Feynman1963118,Dirac1953888}.
+
+%%
+Visualization System to Analyze Conversation in Psychological Counseling
+ 
+
+* Tomoya Uetsuji      ** Yasuo Ebara       *** Koji Koyamada
+Kyoto University, Kyoto, Japan
+
+ 
+Abstract
+
+KEYWORDS: VISUALIZATION, FLOW OF CONVERSATION, COUNSELING.
+INDEX TERMS: J.4 [COMPUTER APPLICATIONS]: SOCIAL AND BEHAVIORAL SCIENCES? PSYCHOLOGY; H.5.2 [INFORMATION INTERFACES AND PRESENTATION]: USER INTERFACES? NATURAL LANGUAGE
+\section{Introduction}
+?In modern society, there is a huge amount of wide variety data.  In particular, the needs to analysis text data based on various conversation has been increasing.
+  
+  Especially in the psychological counseling, a counsellor offers counseling with a psychosomatic patient or client mainly on the physical symptom from stress causes. In general, beginner counsellors have difficulty turning interests for the cognitive characteristic and the internal problems by the clients. 
+
+  The beginner counselors tend to proceed with the psychological counseling to suit one's interest, and are using frequency ?closed-ended question (client can answer ?Yes? or ?No?)? to confirm for the client the interpretation created in one?s mind. Beginner counselors often cannot get answers for make client?s recognition good
+because of the beginner counselor?s yes/no questions
+
+  In contrast, expert counsellors provide the opportunity for education and training to advice for beginner counsellors on the contents of counselling. Expert counselors need to educate so that beginner counselors can use an ?open-ended question (the question by 5W1H)? freely. However, because of the problem of the privacy, experts cannot get the real voice data of the psychological counseling. So, in usual the Supervision, the expert counsellors take a look with direct transcripts of phonetic transcriptions in the counselling and educate someone for the beginner counsellors.
+
+  However, transcript document text data of conversation in psychological counseling are large-scale and complex, the supervisor is very difficult to extract the characteristics and the situation of conversation between a beginner counselor and a client while referring to each data. To improve the issue, we consider that the visualization of conversation data seems to be effective. Accordingly, we consider showing an appropriate method to visualize each answer of the client for each question by beginner counselor.
+
+  In this study, we proposed and developed the system for visualizing the flow of the conversation in psychological counseling. In this proposed system, we visualized the distribution change along the progress of time with  charts for each category group classified base on the Adlerian psychology included in phonetic transcription in the psychological counseling. In this paper, we show the overview of the system and the results of  user evaluation by the expert counselor. The intended users of our visualization of conversation flow is the expert counselors.
+
+   In addition, clients often say as the percentage of "talk about actions that they have done" more than "talk about actions others have done to the clients themselves", the client's "correction of cognition" progresses in psychological counseling as Fig. 2. In other words, "If you are interested in changing your own behavior rather than changing the behavior of the opponent, cognitive correction is progressing" \cite{zokad}. Therefore, we considered that, by appropriately classifying "client's behavior" and "client's behavior" from the conversation data of counseling and visualizing the result, degree of modification of the client's perception can be grasped.
+
+  In response to the above requests, we will try to visualize the conversation data by a method to combine a human relationship chart and what kind of actions were taken among the people appearing during the psychological counseling conversation.
+\section{Related work}
+   There are several works of relevant visualizations of conversations. In this chapter, we describe related work and reveal the position of our study. In this study, we believe that visualization method along the time series is important in dealing with text data on the flow of conversation in the psychological counseling.
+
+Heliang visualized the topic of the client with a line chart and three-dimensional spiral structure in a web-based psychological counseling system \cite{shou}. However, in our study, at the point of view called the visualization of the flow of the one-on-one conversation of the beginner counselor and the client, it is important to visualize by combining each utterance contents in both. 
+
+  Eric and others visualized by an asymmetry layer line chart of top and bottom for the time distribution of topic which divided by two kinds of technique \cite{taskdriven}. In our study, we consider that the visualization technique to paint pictures with an asymmetry line chart of the top and bottom is useful about each utterance by the client and the beginner counselor. However, to visualize the flow of conversation of the psychological counseling, it is important to have a listen how response of the client for the question by the beginner counselor. 
+
+  Ito developed the system that enables to visualize the time series transition for blog user?s interesting topics in three dimensions \cite{itoh2010interactive}. In our study, the information of utterance by a client consists of three-dimensional data by time series, group of sentences, and number of sentences. On the other hands, the information of utterance by a beginner counselor is two-dimensional data by time series and question type. However, we considered that the flow of conversation between a client and a beginner counselor can be visualized by two-dimensional chart with color coding. 
+
+   El-Assady\cite{el2016contovi} developed a visual analytics approach to analyze speaker patterns with character circle, talk category circle chart and circles which size means the talk quantity about the category from the speaker. They express the conversation by circle where you are in the topic.?
+   However, their visualization cannot be used unless the topic classifications of counselor and client are together, so we cannot know the relationship between questions and answers from their visualization.
+
+  A. Tat \cite{tat2002visualising} used audio visualization, we seek to demonstrate how behavior is augmented with the addition of behavior history
+?
+ From these patterns, Tony Bergstrom\cite{bergstrom2007seeing} can guess at the speaker?s emotion and how he/she is connected to another speaker during a conversation. However, A. Tat and Tony do not visualize conversation content category using natural language procedure, so we cannot know the relationship between questions and answers from their visualization.
+
+  in our study, it is important to respond to these utterances such as how problems can be drawn from client by a beginner counselor in psychological counseling. Therefore, we considered that each information of utterance by the client and the beginner counselor is desirable to visualize in single chart compactly.
+
+  van Ham \cite{van2009mapping} et al. analyzed sentences at high speed, and the relationship such as "A of B" and "A and B" specified by the user is expressed by a directed graph. However, from their system, we cannot know why these words are connected and when the connect cause appeared in the input text data.
+
+  Tanaka et al. \cite{tanaka} developed?the interface that efficiently recalls the contents of the story. However, they visualize frequent keywords including ones which are not characters. Also, they have not done partial visualization of what kind of directional human relationship it was in what scene. 
+
+\section{Basic explanations about the counseling}
+
+  In this chapter, we explain the basic matters of counseling necessary for the development of our proposed system. In psychotherapy, there is no school that is single and communicates to all. The greatest school is said to be cognitive behavior therapy. However, Adlerian psychology is adopted in yoga therapy to be treated as usage data of the proposed system this time.
+
+Adler psychology is regarded as a pioneer in cognitive behavioral therapy. What you are doing is a cognitive fix, and a similar approach is taken. Adler psychology is a system of psychology theory, thought and treatment technique developed by Austrian psychiatrist Alfred Adler (A. Adler) and its successors\cite{grad2002preamble}.  Cognitive behavior therapy comes out there, and experimental system and clinical system come to considerably join together, which is said to be a rough flow up to the present age. Adler said "All the problems of life can be categorized into three major tasks, that is, a task of companion, a task of work, a task of love and family \cite{ad2} Adlerian psychology in the life task, from the relationship of the affinity for the inquirer, the work task: the non-permanent human relationship., the task of the friendship: the persistence, but the human relationship not doing fate, the task of love and family: permanent, destiny as Table. 1. It helps to get problems on human relations. An ?arbitrary? (which doesn?t the utterance about human relationships) classification makes sense. For three categories in the story on human relationships, it can be judged that those who do not move so much in counseling can derive the cause of bad emotion from the patient more deeply. It is said to be extremely effective to classify human problems arbitrarily into three in clinical terms from the clinical point of view. 
+
+The pre-procedure of our proposed conversation flow visualization is based on the above classification method. In this research, visualization along the time axis visualizes the flow of the conversation between the client and the counselor and clarifies how the flow of the conversation changes by the question issued by the counselor Web system developed.
+
+On the other hand, the analysis of the client?s cognitive correction somehow use the categories of the behaviors clients mentioned as Fig. 2 The behavior includes the one which the people around the client had done. According to M. Kamata \cite{kamata2002}, the counselors? important role is to encourage the client so that the client can take on self-determination and self-responsibility and form a cooperative relationship with others without unreasonably intervening in the others? behaviors or emotions. So, it is important to find the client?s own behaviors or emotions without unjustly intervening in the behaviors or emotions of others.
+
+\section{Pre-procedure of proposed visualization systems}
+
+  In this chapter, we explain in detail the requirements for developing visualization system based on comments from expert counselors and the design and implementation of the proposed system. 
+
+\subsection{Fundamental Matter of the Counseling}
+
+\subsubsection{counselor education}
+  
+  From the clinical point of view, it is considered extremely effective to classify human problems into three categories. From the above classification method, we explain the extrbehavior of requirement for the proposed system, design and implementation in the next sub-section.
+
+\subsubsection{client analysis}
+
+  In counseling, it is said that "those who are interested in changing their own behavior rather than changing the behavior of the other party are progressing in modifying cognition". It is said that modification of the client's perception is progressing when the client answers "Clients' own behaviors" rather than answering "people's behavior around the client."
+
+  We considered that we can confirm the condition of client's perception by visualizing data, "Person's behavior around the client" or "client's own behavior". On the other hand, we thought that we could satisfy the above needs by visualizing subjects and predicates of behavior in conversation content text in chronological order. In response to such needs, we have visualized the time series of human relationship charts including subject and object information of behaviors.
+
+\subsection{System Design}
+
+\subsubsection{Visualization of the flow of conversation with classification of questions and answers}
+
+  This section describes the design and implementation of our proposed system. Fig.3 shows the processing procedure on visualization system of the flow of conversation in counseling. The visualization of the flow of conversation) shows the contents of conversation in one counseling session. In this system, the category classification of conversation text data in the counseling as pre-processing of visualization is executed. 
+
+  In this system, one comment from the person in charge or the counselor is judged by the change of the speaker. In other words, one comment from one of the talkers is until the counselor finishes talking and the talker starts talking, until the clinic speaks and the therapy begins to talk. Also, one utterance by the counselor is from the time the talker finishes talking, or the counselor starts tearing out the talk, until the counselor finishes talking and the informer starts talking.
+
+  In this system, the utterances of the client, each sentence corresponds to the task area ?Work?, ?Friendship? and ?Love and Family? based on Adler psychology. On the other hands, the utterance by the beginner counselor are classified into five categories as shown in Table 2.   Fig.4 shows the flow of automatic classification method for counselor?s questions as Table.2. First, categorize statements with interrogatives indicating "5W1H", such as "when", "where", "what", and so on as "open questions". Next, among remaining utterances, those with 5 or fewer words are classified as "feedback". Further, among remaining utterances, the utterances including the Japanese final enclosing particle "ka" are classified as "closed questions". Among those which were not classified as far as the past, "interpretation" is included for those that contain the Japanese final ending particle "ne" and "idol talk" is to exclude those that do not include Japanese.
+
+First, our proposed system read the conversation data of each text on the browser and perform morphological analysis to separate the text into words. For the morphological analysis subsystem, kuromoji.js \cite{kuromojijs} which is a morphological analysis library of JavaScript language was used. kuromoji.js is an open source Japanese morphological analysis engine implemented in Java Kuromoji \cite{kuromoji} ported to JavaScript.
+
+  Then, these sentences are classified into each category by matching with the keyword corresponding to the category registered in this system and each word in the sentence. However, in this category classification method applied for text data of each utterance by the counselor and the client, the accuracy of   classification results depends on the word dictionary which registered in system, and the accuracy rate for classification is very low. Therefore, an expert counselor has confirmed the initial classification result in the current system, and has to correct the wrong classification results manually, and the work burden is large. Unlike that of the client, I got a comment that classification on utterances of the therapist is not a sentence unit but a classification in talker-turn unit.
+
+After the classification of utterance data, the form of question by a beginner counselor and the distributing change with time series for category group of the sentence related to ?Work?, ?Friendship? and ?Love and Family? for the utterance by a client are visualized in the same times.   
+
+\subsubsection{Visualization of the time-series flow of behavior arrow in character relationship chart}
+
+  In this section, to generate the human relations chart taken along a series, we explain the method of extracting the behavior data with the time data, the subject data and the object data in the text data. Fig.5 shows the flow of the pre-procedure
+
+  This subsection explains about how to extract characters in sentences. This system input is the output result of KNP\cite{kawahara2006fully} (Dependency Analyzer) when the counseling conversation transcript text data was input into KNP. Next, words (character candidates) that are "category: person" were extracted. Then, the original sentence is morphologically analyzed by the Japanese language morphological analyzer JUMAN\cite{juman}. JUMAN categorizes each word of Japanese by its own dictionary during morphological analysis. Therefore, by extracting words classified as "people" category by JUMAN, we extracted characters in sentences. 
+
+  Also, we got verb list. Next, we grasped dependency around each verb so that we can get subject or object for each verb. 
+
+  Then, we count how many verbs that has the same pair of the subject and the object the counseling conversation text has.?we add stroke width of circles or arrows in Fig.1 chart by the number of verbs the circles or arrows mean.
+
+
+
+
+\section{Visualization results}
+
+\subsection{Visualization of the flow of conversation with classification of questions and answers}
+
+  In this chapter, we describe the visualization result of our proposed system. Fig.6 and 3 show examples of the visualization result of the flow of conversation in this proposed system. The visualization result consists of three items.  We used D3.js\cite{vand3} for the visualization. it based on written transcripts.
+
+\subsubsubsection{Bar chart}
+
+In the upper part of Fig. 6, the distribution of each category for each utterance by a beginner counselor at the upper counselor and a counselor at the lower client is displayed as the visualization results by the bar charts. One bar chart is represented as one utterance. Table 3 shows the allocation of color for each bar chart of utterance of a beginner counselor and a client in counseling. We consider that each utterance amount of the beginner counselor and the order information of each sentence of utterance by the client can clearly be expressed in bar chart.
+
+\subsubsubsection{Utterance classification manual correction function}
+
+  In the bottom left of Fig.6, an expert counselor confirms the classification result of utterance contents by the system, and can correct the wrong classification results manually. In the bottom right of Fig.6, all text data of conversation contents in the counseling is displayed. 
+Text display function
+
+In addition, we implemented a function to display the by mouse over operation for the vertical bar chart which express classification of questions to the client by the beginner counselor. For ease of viewing, each statement was displayed with black letters instead of letter color corresponding to the color of the chart, and it was surrounded by a corner bracket ?? of the color corresponding to the chart.
+
+On the other hands, as for the category grouping of problems that a client is facing, ?Work?, ?Friendship? and ?Love and Family? as main category groups are classifiable in the Adlerian psychology. However, the demand that want to add classification category ?Self? and ?Spiritual? as well as ?Work?, ?Friendship? and ?Love and Family? has been received from an expert counselor. As the matter, the self-problems such as ?Self? or ?Spiritual? is difficult to fully understand, and we will need to study as the future work.
+
+\subsection{Visualization of the time-series flow of behavior arrow in character relationship chart}
+
+  Fig.1 shows the image of the time series human relationship chart. By moving the lower slider, we displayed the human relations chart from, for example, what sentence to what sentence along the time series. Moreover, as shown in Fig.2, by making it possible to display the sentence of the corresponding verb, we can know which original text the arrow means as Fig. 7. We used D3.js\cite{vand3} for the visualization.
+
+.
+\subsection{User Evaluation}
+\subsubsection{Visualization of the flow of conversation with classification of questions and answers}
+
+We evaluated on the functions of this system by expert counselors as the system users, and discussed based on some review comments in evaluation. This evaluation purpose is to know the answer of following questions:
+  \begin{itemize}
+\item Does a system seem to be usable for counselor education/educating?
+\item Does each chart and original text viewing function seem to be usable for counselor education?
+\end{itemize}
+
+We performed a system evaluation by three expert counselors really use a visualization system as a rater. Average age is 55 years old. Average length of the clinical experience is 29 years.
+
+First of all, the evaluators confirms one flow of counseling by matching the mouse cursor with the time-series visualization result
+
+  In this evaluation, we asked free writing questions. From the answers for question ?What kind of guidance can be given to the counselor by viewing the bar chart??, we considered that various indications can be made to the new counselor based on the change in the distribution of the speech amount overlooking the whole.
+
+  Then, In addition, we got a user comment saying that:
+  \begin{itemize}
+\item In order to understand that it is a prerequisite that it is assumed that a consultative relationship is established between the counselor and the client
+\item Based on this result, it can be used as a material for rebuilding counseling
+\item I thought it would be useful to see what counselors and clients are saying.
+\end{itemize}
+
+  From the above results, as a whole, we think that it is concluded by answers from multiple experienced counselors that the flow of conversation is properly visualized so that this system guides the new counselor.
+
+\subsubsection{Visualization of the time-series flow of behavior arrow in character relationship chart}
+
+  The expert counselor said that he found out that the idea ?I want B to follow my will? disappeared and self-closed task increased. Progress of correction of cognition could be confirmed by changing the quantity of arrows (Overall view of multiple counseling) and confirming the quality in original text display. We consider that our proposed character chart visualization helps counselors find out that some kind of client?s cognitive fixes were made.
+
+\section{Conclusion}
+
+  In this paper, we first conclude that it is concluded by answers from multiple experienced counselors that the flow of conversation is properly visualized in order to give guidance to new counselors as a whole.  The bar chart is superior to the new counselor guidance over the stacked chart in the visualization of the flow of the conversation in counseling. The flow visualization system can be expected to be applied to applications other than counseling, such as job interview interviews.
+
+  In addition, by visualizing the subject and object information of the action in the text with arrows, it becomes possible to visualize the data by "visualizing the behavior of a person around the client" or "client's own behavior." We can conclude that counselors can check the condition of cognitive correction by our proposed time-series visualization of human relationship chart with behavior arrows. Time series visualization of the direction of behavior using human relationship charts can be applied to fields other than counseling, for example, to confirm the time-series trends of characters in the text such as grasping the novel scene. 
+
+    Our proposed system can be applied to languages other than Japanese, such as English, by returning the language of language processing.
+
+
+
+%%
+
+\section*{References}
+
+\bibliography{mybibfile}
+
+\end{document}
