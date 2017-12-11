@@ -1,22 +1,19 @@
-\BOOKMARK [1][-]{section.1}{The Elsevier article class}{}% 1
-\BOOKMARK [1][-]{section.2}{Front matter}{}% 2
-\BOOKMARK [1][-]{section.3}{Bibliography styles}{}% 3
-\BOOKMARK [1][-]{section.4}{Introduction}{}% 4
-\BOOKMARK [1][-]{section.5}{Related work}{}% 5
-\BOOKMARK [1][-]{section.6}{Basic explanations about the counseling}{}% 6
-\BOOKMARK [1][-]{section.7}{Pre-procedure of proposed visualization systems}{}% 7
-\BOOKMARK [2][-]{subsection.7.1}{Fundamental Matter of the Counseling}{section.7}% 8
-\BOOKMARK [3][-]{subsubsection.7.1.1}{counselor education}{subsection.7.1}% 9
-\BOOKMARK [3][-]{subsubsection.7.1.2}{client analysis}{subsection.7.1}% 10
-\BOOKMARK [2][-]{subsection.7.2}{System Design}{section.7}% 11
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.7.2}% 12
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.7.2}% 13
-\BOOKMARK [1][-]{section.8}{Visualization results}{}% 14
-\BOOKMARK [2][-]{subsection.8.1}{Visualization of the flow of conversation with classification of questions and answers}{section.8}% 15
-\BOOKMARK [0][-]{part.1}{I Bar chart}{}% 16
-\BOOKMARK [0][-]{part.2}{II Utterance classification manual correction function}{}% 17
-\BOOKMARK [1][-]{subsection.8.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{part.2}% 18
-\BOOKMARK [2][-]{subsection.8.3}{User Evaluation}{subsection.8.2}% 19
-\BOOKMARK [3][-]{subsubsection.8.3.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.8.3}% 20
-\BOOKMARK [3][-]{subsubsection.8.3.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.8.3}% 21
-\BOOKMARK [1][-]{section.9}{Conclusion}{part.2}% 22
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related work}{}% 2
+\BOOKMARK [1][-]{section.3}{Basic explanations about the counseling}{}% 3
+\BOOKMARK [1][-]{section.4}{Pre-procedure of proposed visualization systems}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Fundamental Matter of the Counseling}{section.4}% 5
+\BOOKMARK [3][-]{subsubsection.4.1.1}{counselor education}{subsection.4.1}% 6
+\BOOKMARK [3][-]{subsubsection.4.1.2}{client analysis}{subsection.4.1}% 7
+\BOOKMARK [2][-]{subsection.4.2}{System Design}{section.4}% 8
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.4.2}% 9
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.4.2}% 10
+\BOOKMARK [1][-]{section.5}{Visualization results}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Visualization of the flow of conversation with classification of questions and answers}{section.5}% 12
+\BOOKMARK [0][-]{part.1}{I Bar chart}{}% 13
+\BOOKMARK [0][-]{part.2}{II Utterance classification manual correction function}{}% 14
+\BOOKMARK [1][-]{subsection.5.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{part.2}% 15
+\BOOKMARK [2][-]{subsection.5.3}{User Evaluation}{subsection.5.2}% 16
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.5.3}% 17
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.5.3}% 18
+\BOOKMARK [1][-]{section.6}{Conclusion}{part.2}% 19
