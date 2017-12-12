@@ -7,45 +7,45 @@ Warning--can't use both volume and number fields in el2016contovi
 Warning--empty journal in kuromojijs
 Warning--empty journal in kuromoji
 Warning--empty journal in vand3
-You've used 17 entries,
+You've used 16 entries,
             2937 wiz_defined-function locations,
-            769 strings with 7938 characters,
-and the built_in function-call counts, 4709 in all, are:
-= -- 435
-> -- 116
+            762 strings with 7787 characters,
+and the built_in function-call counts, 4457 in all, are:
+= -- 411
+> -- 109
 < -- 5
-+ -- 50
-- -- 33
-* -- 261
-:= -- 612
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 15
++ -- 47
+- -- 31
+* -- 244
+:= -- 579
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 167
-empty$ -- 569
-format.name$ -- 43
-if$ -- 1257
+cite$ -- 20
+duplicate$ -- 159
+empty$ -- 541
+format.name$ -- 40
+if$ -- 1194
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 19
-newline$ -- 59
-num.names$ -- 17
-pop$ -- 126
+int.to.str$ -- 16
+missing$ -- 18
+newline$ -- 56
+num.names$ -- 16
+pop$ -- 119
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 355
+skip$ -- 339
 stack$ -- 0
-substring$ -- 247
-swap$ -- 44
+substring$ -- 228
+swap$ -- 43
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 40
-width$ -- 19
-write$ -- 138
+while$ -- 37
+width$ -- 18
+write$ -- 131
 (There were 4 warnings)
