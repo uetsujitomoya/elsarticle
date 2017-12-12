@@ -5,14 +5,18 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{transcript}
+D.~Bower, Transcript of therapy session, The Person-Centered Journal Volime 1,
+  Issue 3.
+
 \bibitem{zokad}
-S.~Noda, Continued Adlerian psychology talking seminar ? Family communication
-  of courage pickles, Anima Shobo Publishing, 1991.
+S.~Noda, Continued Adlerian psychology talking seminar Family communication of
+  courage pickles, Anima Shobo Publishing, 1991.
 
 \bibitem{shou}
-Z.~H. Kato, K.~Tsuchida, Application of 3d spiral graph visualization to the
-  psychological data, International Journal of Electronics and Computer Science
-  Engineering, Vol. 2, No. 4, pp.1219-1230.
+C.~K. Z.~Heliang, K.~Tsuchida, Application of 3d spiral graph visualization to
+  the psychological data, International Journal of Electronics and Computer
+  Science Engineering, Vol. 2, No. 4, pp.1219-1230.
 
 \bibitem{taskdriven}
 E.~Alexander, M.~Gleicher, Task-driven comparison of topic models, IEEE
@@ -55,8 +59,7 @@ H.~L. Ansbacher, R.~R. Ansbacher, THE INDIVIDUAL PSYCHOLOGY OF ALFRED ADLER,
 
 \bibitem{kamata2002}
 M.~Kamata, A study on separation of issues in counseling - try to understand
-  visually impaired using communication arrows ?, Adlerian 16~(2) (2002)
-  75--80.
+  visually impaired using communication arrows, Adlerian 16~(2) (2002) 75--80.
 
 \bibitem{kuromojijs}
 T.~Asano, kuromoji.js, \url{https://github.com/takuyaa/kuromoji.js}.

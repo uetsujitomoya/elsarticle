@@ -54,7 +54,7 @@
 %\fntext[myfootnote]{Since 1880.}
 
 %% or include affiliations in footnotes:
-\author[mysecondaryaddress]{Tomoya Uetsuji \corref{mycorrespondingauthor}}
+\author[zero]{Tomoya Uetsuji \corref{mycorrespondingauthor}}
 \cortext[mycorrespondingauthor]{Corresponding author}
 \ead{uetsuji@viz.media.kyoto-u.ac.jp}
 
@@ -66,16 +66,19 @@
 
 
 
-\address[mysecondaryaddress]{Kyoto University, Kyoto, Japan}
+
+
+\address[zero]{Department of Electrical Engineering, Kyoto University, Kyoto, Japan}
 \address[mymainaddress]{Kurokawa Clinic, Osaka, Japan}
 
+\address[mysecondaryaddress]{Academic Center for Computing and Media Studies, Kyoto University, Osaka, Japan}
 
 \begin{abstract}
-Illness in health conditions involving changes in thinking, emotion or behavior is one of the most pressing public health issues of our time. While counseling and psychotherapy can be effective treatments, current supervision for beginner counsellors about how to conduct successful counseling conversations has been limited due to lack of an appropriate visual analytic system for the counseling transcripts. In this paper, we present a visual analytic system to help expert counsellors understand the conversation flow caused by the beginner counsellors. We develop a set of novel visualization methods to measure how various linguistic aspects of conversations are correlated with conversation outcomes. Applying the proposed visual analytic system to the counseling transcripts, we discover that our system can facilitate counsellors make effective supervision strategies that are associated with better conversation outcomes. Also, we discovered that counselors can check the condition of cognitive correction by our proposed time-series visualization of human relationship chart with behavior arrows.
+Illness in health conditions involving change counselors in thinking, emotion or behavior is one of the most pressing public health issues of our time. While counseling and psychotherapy can be effective treatments, current supervision for beginner counselors about how to conduct successful counseling conversations has been limited due to lack of an appropriate visual analytic system for the counseling transcripts. In this paper, we present a visual analytic system to help expert counselors understand the conversation flow caused by the beginner counselors. We develop a set of novel visualization methods to measure how various linguistic aspects of conversations are correlated with conversation outcomes. Applying the proposed visual analytic system to the counseling transcripts, we discover that our system can facilitate counselors make effective supervision strategies that are associated with better conversation outcomes. We concluded that the supervision will be improved by a bar chart-based visualization method developed to  understand the counseling conversation flow. In addition, we discovered that counselors can check the condition of cognitive correction by our proposed time-series visualization of human relationship chart with behavior arrows. We concluded that it can be confirmed whether her/his situation changes for the better or not with a circular-link visualization in characters about whom the client talked.
 \end{abstract}
 
 \begin{keyword}
-\texttt{VISUALIZATION}\sep FLOW OF CONVERSATION \sep COUNSELING
+\texttt{text visualization} \sep human relationship chart
 \end{keyword}
 
 \end{frontmatter}
@@ -90,7 +93,7 @@ Illness in health conditions involving changes in thinking, emotion or behavior 
 %\begin{center}
 %\includegraphics[width=\linewidth]{fig1.png}
 %\end{center}
-%\caption{An example of the time-series visualization of our proposed character relationship chart with behavior arrow from the dependency analysis of the text data. The arrows show behavior. Circle shows behavior that means (1) or (3) of chart Gray arrow means (4) or (5). Red arrow means (2). Slider selects the visualized area of the input text. If we click a circle or a arrow, the original texts including verbs which the circle or the arrow appear at the left side of the screen}
+%\caption{An example of the time-series visualization of our proposed human relationship chart with behavior arrow from the dependency analysis of the text data. The arrows show behavior. Circle shows behavior that means (1) or (3) of chart Gray arrow means (4) or (5). Red arrow means (2). Slider selects the visualized area of the input text. If we click a circle or a arrow, the original texts including verbs which the circle or the arrow appear at the left side of the screen}
 %\label{fig1}
 %\end{figure}
 %
@@ -99,19 +102,19 @@ Illness in health conditions involving changes in thinking, emotion or behavior 
   
  In psychological counseling, treatment is offered to a psychosomatic patient or client mainly due to the physical symptoms caused by stress. However, beginner counselors often have difficulty turning their attention to the cognitive characteristics of the internal problems faced by clients. Beginner counselors tend to direct the psychological counseling process to suit their interests and frequently use close-ended questions (to which a client can answer "Yes" or "No") to obtain a client's confirmation of the interpretation they have offered.
 
- In contrast, expert counselors provide an opportunity for education and training by offering advice to beginner counselors on the content of their counseling conversations. Expert counselors need to educate beginner counselors about how to use open-ended questions (questions characterized by 5W1H) freely. However, due to privacy and client confidentiality issues, experts can rarely obtain voice data from beginner counselors' psychological counseling sessions. Therefore, it is usual for expert counselors to only read direct phonetic transcriptions of conversation of counseling sessions in supervision to support the education of beginner counselors.
+ In contrast, expert counselors provide an opportunity for education and training by offering advice to beginner counselors on the content of their counseling conversations. Expert counselors need to educate beginner counselors about how to use open-ended questions (questions characterized by 5W1H) freely. However, due to privacy and client confidentiality issues, experts can rarely obtain voice data from beginner counselors' psychological counseling sessions. Therefore, it is usual for expert counselors to only read direct phonetic transcriptions of conversation of counseling sessions in supervision to support the education of beginner counselors. The example of counseling transcripts was shown by Douglas Bower\cite{transcript}.
 
-However, transcript documents that comprise the text data of conversations in psychological counseling are large in scale and complex. It is very difficult for the supervisor to extract the conversational characteristics from the situation that exists between a beginner counselor and a client by referring to such data. To improve the accessibility of counseling conversations, we propose that visualization of data is more effective. Accordingly, we have developed an appropriate method to visualize the client's answers to each of the beginner counselor's questions.
+However, transcript documents that comprise the text data of conversations in psychological counseling are large in scale and complex. It is very difficult for the supervisor to extract the conversational characteristics from the situation that exists between a beginner counselor and a client by referring to such data. To improve the accessibility of counseling conversations, we propose that visualization of data is more effective. Accordingly, we have developed an appropriate method to visualize the client's answers to each of the beginner counselor's questions. We considered how the limitation in the current supervision for beginner counselors about how to conduct successful counseling conversations can be reduced. In addition, we considered how the supervision for beginner counsellors can be improved using counseling transcripts.
 
- This study proposed and developed a system for visualizing the flow of the psychological counseling conversation. One of our proposed systems visualizes the distribution of relationship changes between begineer counselor's questions and client's answers over time, with a bar chart depicting the results by category classification based upon Adlerian psychology. In this study, we present an overview of the system and the results of the user evaluation by expert counselors. The intended users of our visualization of conversation flow is the expert counselors.
+ We considered that the limitation can be relaxed and the supervision will be improved by a visual analytic system employed to understand counseling transcripts. This study proposed and developed a system for visualizing the flow of the psychological counseling conversation. One of our proposed systems visualizes the distribution of relationship changes between beginner counselor's questions and client's answers over time, with a bar chart depicting the results by category classification based upon Adlerian psychology. In this study, we present an overview of the system and the results of the user evaluation by expert counselors. The intended users of our visualization of conversation flow is the expert counselors. We considered that it can be confirmed whether the beginner counselor talked too much in the session by a bar-chart of the visualization result of the flow of conversation. In addition, we considered that the supervision will be improved by a bar chart-based visualization method developed to understand the counseling conversation flow. 
 
- In addition, as the percentage of a client's utterance about their own actions toward others begins to outweigh their utterance about others' actions toward themselves, the client's cognitive correction is understood to be progressing, as in Figure \ref{fig:fig2}. In other words, "If you are interested in changing your own behavior rather than changing the behavior of the opponent, cognitive correction is progressing"  \cite{zokad}. Therefore, we propose that classifying the client's behavior according to the information provided by the counseling conversation data, and then visualizing the result, reveals the degree of modification of the client's perception and cognition in psychological counseling. we visualized the conversation data using a method that combines a human relationship chart with the behavior enacted by the people discussed in the psychological counseling conversation. We considered that counselors can check the condition of cognitive correction by our proposed time-series visualization of human relationship chart with behavior arrows.
+ In addition, as the percentage of a client's utterance about their own actions toward others begins to outweigh their utterance about others' actions toward themselves, the client's cognitive correction is understood to be progressing, as in Figure \ref{fig:fig2}. In other words, "If you are interested in changing your own behavior rather than changing the behavior of the opponent, cognitive correction is progressing"  \cite{zokad}. Therefore, we propose that classifying the client's behavior according to the information provided by the counseling conversation data, and then visualizing the result, reveals the degree of modification of the client's perception and cognition in psychological counseling. we visualized the conversation data using a method that combines a curcular human relationship chart with the behavior enacted by the people discussed in the psychological counseling conversation. We considered that counselors can check the condition of cognitive correction by our proposed time-series visualization of circular-link human relationship chart with behavior arrows. We considered that it can be confirmed whether her/his situation changes for the better or not with a circular-link visualization in characters about whom the client talked.
    
     \begin{figure}
    \begin{center}
      \includegraphics[width=\linewidth]{fig2.png}
    \end{center}
-   \caption{Categories of behavior based upon a counseling client analysis. The coloring depicted above was used for our proposed character relationship chart}
+   \caption{Categories of behavior based upon a counseling client analysis. The coloring depicted above was used for our proposed circular-link human relationship chart}
    \label{fig:fig2}
  \end{figure}
 
@@ -122,16 +125,17 @@ Heliang visualized the topic of the client with a line chart and three-dimension
 
  Eric et al. visualized conversational data using an asymmetry layer line chart, with the top and bottom depicting the time distribution of topics, which were divided by two kinds of technique \cite{taskdriven}. Our researchers agreed that the visualization technique of painting pictures with an asymmetry line chart on the top and bottom is a useful method to depict each utterance by the client and the beginner counselor. However, to visualize the flow of conversation in psychological counseling, it is important to listen to how the client responds to the questions by the beginner counselor.
 
-  Ito developed the system that enables to visualize the time series transition for blog user?s interesting topics in three dimensions \cite{itoh2010interactive}. In our study, the information of utterance by a client consists of three-dimensional data by time series, group of sentences, and number of sentences. On the other hands, the information of utterance by a beginner counselor is two-dimensional data by time series and question type. However, we decided that the conversation flow between a client and a beginner counselor can best be visualized using a two-dimensional chart with color coding.
+  Ito developed the system that enables to visualize the time series transition for blog user's interesting topics in three dimensions \cite{itoh2010interactive}. In our study, the information of utterance by a client consists of three-dimensional data by time series, group of sentences, and number of sentences. On the other hands, the information of utterance by a beginner counselor is two-dimensional data by time series and question type. However, we decided that the conversation flow between a client and a beginner counselor can best be visualized using a two-dimensional chart with color coding.
   
    El-Assady\cite{el2016contovi} developed a visual analytics approach to analyze speaker patterns with character circle, talk category circle chart and circles which size means the talk quantity about the category from the speaker.  The character circle expresses the conversation by circling where you are in the topic. However, their visualization cannot be used unless the topic classifications of counselor and client are the same, so we cannot determine the relationship between questions and answers from their visualization.
 
-  A. Tat \cite{tat2002visualising} used audio visualization, which demonstrated how behavior is augmented by the addition of behavioral history.
-? Tony Bergstrom \cite{bergstrom2007seeing} aimed to determine the speaker's emotion by how he/she is connected to another speaker during a conversation. However, these methods do not visualize conversation content categories using a natural language procedure, so we cannot determine the relationship between questions and answers from this visualization.
+  A. Tat \cite{tat2002visualising} used audio visualization, which demonstrated how behavior is augmented by the addition of behavioral history.Tony Bergstrom \cite{bergstrom2007seeing} aimed to determine the speaker's emotion by how he/she is connected to another speaker during a conversation. However, these methods do not visualize conversation content categories using a natural language procedure, so we cannot determine the relationship between questions and answers from this visualization.
+  
+  Therefore, than the visualizations in the above works, we considered that bar-chart visualization of the flow of conversation with classification of questions and answers is more appropriate to confirming whether the beginner counselor talked too much in the session and improving the supervision.
 
   van Ham \cite{van2009mapping} et al. conducted a study that analyzed sentences at high speed, where their relationships such as "A of B" and "A and B" were specified by the user and expressed in a direct graph. However, using their system, we cannot determine why these words are connected, and when the connections caused appeared in the input text data.
 
-  Tanaka et al. \cite{tanaka} developed?the interface that efficiently recalls the contents of the story. However, they visualize frequent keywords including ones which are not characters. Also, they have not done partial visualization of what kind of directional human relationship it was in what scene. 
+  Tanaka et al. \cite{tanaka} developed the interface that efficiently recalls the contents of the story. However, they visualize frequent keywords including ones which are not characters. Also, they have not done partial visualization of what kind of directional human relationship it was in what scene. Therefore, than van Ham or Tanaka et al., we considered that circular-link visualization of the time-series flow of behavior arrow in human relationship chart is more appropriate to confirming whether her/his situation changes for the better or not.
 
 \section{Basic explanation of counseling}
 
@@ -155,11 +159,11 @@ Adlerian psychology is regarded as the forerunner to cognitive behavioral therap
 
 The pre-procedure of our proposed conversation flow visualization is based on the above classification method. In this research, visualization along the time axis depicts the flow of the conversation between the client and the counselor and clarifies how the flow of the conversation changes according to the questions asked by the counselor.
 
-On the other hand, the analysis of the client's cognitive correction attends to the changes in the categories of the client's behavior, as mentioned as Figure \ref{fig:fig2}, including the behavior of the people around the client. According to M. Kamata \cite{kamata2002}, the counselors' role is to encourage the client so that the client can develop self-determination and self-responsibility. This enables the client to form a cooperative relationship with others, without unreasonably intervening in others' behavior or emotions. It is important for the counselor to discover how the client's own behavior or emotions can develop without unjustly intervening in the behavior or emotions of others. The pre-procedure of our proposed character relationship chart visualization is based on the above classification method. 
+On the other hand, the analysis of the client's cognitive correction attends to the changes in the categories of the client's behavior, as mentioned as Figure \ref{fig:fig2}, including the behavior of the people around the client. According to M. Kamata \cite{kamata2002}, the counselors' role is to encourage the client so that the client can develop self-determination and self-responsibility. This enables the client to form a cooperative relationship with others, without unreasonably intervening in others' behavior or emotions. It is important for the counselor to discover how the client's own behavior or emotions can develop without unjustly intervening in the behavior or emotions of others. The pre-procedure of our proposed human relationship chart visualization is based on the above classification method. 
 
 \section{Pre-procedure of proposed visualization systems}
 
-  In this chapter, we explain in detail the requirements for developing visualization system based on comments from expert counselors and the design and implementation of the proposed system. 
+  In this section, we explain in detail the requirements for developing visualization system based on comments from expert counselors and the design and implementation of the proposed system. 
 
 \subsection{Fundamentals of counseling}
 
@@ -167,17 +171,17 @@ On the other hand, the analysis of the client's cognitive correction attends to 
   
   From the clinical point of view, it is considered extremely effective to classify human problems into three categories. From the classification method, we explain the extrbehavior of requirement for the proposed conversation flow visualization, design and implementation in the next sub-section.
 
-\subsubsection{client analysis}
+\subsubsection{Client analysis}
 
  In counseling, it is said that "those who are interested in changing their own behavior rather than changing the behavior of the other party are progressing in modifying cognition." It is said that the modification of the client's perception is progressing when the client focuses on the clients' own behavior, rather than on other people's behavior.
  
- We decided that we can represent the condition of the client's perception by visualizing the data as "person's behavior around the client" or "client's own behavior." In addition, we thought that we could satisfy the above requirements by visualizing the subjects and predicates of behavior in conversational content text, in chronological order. In response to these requirements, we developed a time-series visualization tool using human relationship charts that include the subject and object of behavior.
+ We decided that we can represent the condition of the client's perception by visualizing the data as "person's behavior around the client" or "client's own behavior." In addition, we thought that we could satisfy the above requirements by visualizing the subjects and predicates of behavior in conversational content text, in chronological order. In response to these requirements, we developed a time-series circular-link visualization tool using human relationship charts that include the subject and object of behavior.
 
 \subsection{System design}
 
-\subsubsection{Visualization of the flow of conversation with classification of questions and answers}
+\subsubsection{Bar-chart visualization of the flow of conversation with classification of questions and answers}
 
-This section describes the design and implementation of our proposed system. Figure \ref{fig:fig3} shows the processing procedure of our visualization system depicting the flow of conversation in counseling. In this system, the classification of conversation text data in counseling during the pre-processing stage of visualization is executed.
+This section describes the design and implementation of our proposed system. Figure \ref{fig:fig3} shows the processing procedure of our visualization system depicting the flow of conversation in counseling. In this system, the classification of counseling transcript data in counseling during the pre-processing stage of visualization is executed.
 
       \begin{figure}
    \begin{center}
@@ -206,7 +210,7 @@ Figure \ref{fig:fig4} shows the flow of automatic classification methods for the
     Close-ended question  & The question that it is answered in Yes/No or is easily answered only with a word \\ \hline
     Back-channel feedback & The verbal response of someone during a conversation \\ \hline
     Interpretation  & The confirmation that how a counselor interprets the problemof the client \\ \hline
-    Small talk & Informal type of discourse \\ \hline
+    Idol talk & Informal type of discourse \\ \hline
   \end{tabular}
    \end{center}
  \end{table}
@@ -225,7 +229,7 @@ First, our proposed system read the conversation data of each text on the browse
 
 Following the classification of utterance data, the type of question asked by the beginner counselor was categorized, and the distribution of changes over a time-series visualized. The category of each client utterance related to "work," "friendship," and "love and family" were visualized at the same time.
 
-\subsubsection{Visualization of the time-series flow of behavior arrows in character relationship chart}
+\subsubsection{Visualization of the time-series flow of behavior arrows in human relationship chart}
 
  In this section, we describe how to generate the human relations chart using a time-series and explain our method for extracting behavior data, time data, and subject and object data from the text data. Figure \ref{fig:fig5} depicts the flow of the pre-procedure.
   
@@ -233,16 +237,16 @@ Following the classification of utterance data, the type of question asked by th
    \begin{center}
      \includegraphics[clip,width=7.0cm]{fig5.png}
    \end{center}
-   \caption{The flow of pre-procedure for visualizing character relationship chart}
+   \caption{The flow of pre-procedure for visualizing human relationship chart}
    \label{fig:fig5}
  \end{figure}
 
 
 %%
 
-    This subsection explains how to extract characters from sentences. The system input is the output result of the KNP\cite{kawahara2006fully} dependency analyzer, which was generated when the counseling conversation transcript text data was input into KNP. Next, words (character candidates) classified as "category: person" were extracted. Then, the original sentence was morphologically analyzed by the Japanese language morphological analyzer JUMAN\cite{juman}. JUMAN categorizes each word of Japanese with its own dictionary during morphological analysis. Therefore, by extracting words classified as the "people" category by JUMAN, we extracted the characters of sentences.
+    This subsection explains how to extract characters from sentences. The system input is the output result of the KNP\cite{kawahara2006fully} dependency analyzer, which was generated when the counseling conversation transcript text data was input into KNP. Next, words (character candidates) classified as "category: person" were extracted. Then, the original sentence was morphologically analyzed by the Japanese language morphological analyzer JUMAN\cite{juman}. JUMAN categorizes each word of Japanese with its own dictionary during morphological analysis. Therefore, we extracted the characters of sentences by extracting words classified as the "people" category by JUMAN.
 
- In addition, we obtained a verb list. Next, we analyzed the expression of dependency around each verb so that we could identify the subject or object of each verb.  Then, according to the number of verbs that has the same pair of the subject and the object the counseling conversation text has, we expanded the stroke width of circles or arrows in our human relationship chart by the number of verbs the circles or arrows mean.
+ In addition, we obtained a verb list. Next, we analyzed the expression of dependency around each verb so that we could identify the subject or object of each verb.  Then, according to the number of verbs that has the same pair of the subject and the object the counseling transcripts has, we expanded the stroke width of circles or arrows in our human relationship chart by the number of verbs the circles or arrows mean.
   
   %%
   
@@ -254,9 +258,9 @@ Following the classification of utterance data, the type of question asked by th
 
 \section{Visualization results}
 
-\subsection{Visualization of the flow of conversation with classification of questions and answers}
+\subsection{Bar-chart visualization of the flow of conversation with classification of questions and answers}
 
-  In this chapter, we describe the visualization results of our proposed system. Figure \ref{fig:fig6} show examples of the visualization result of the flow of conversation in this proposed system. The visualization result consists of three items.  We used D3.js\cite{vand3} for the visualization. it based on written transcripts.
+  In this subsection, we describe the visualization results of our proposed conversation flow visualization. Figure \ref{fig:fig6} show examples of the visualization result of the flow of conversation in this proposed system. The visualization result consists of three items.  We used D3.js\cite{vand3} for the visualization. it based on written transcripts.
   
             \begin{figure}
    \begin{center}
@@ -281,30 +285,30 @@ Figure \ref{fig:fig6} presents a bar chart visualization of the flow of conversa
     Close-ended question & Blue \\ \hline
 Back-channel feedback & Purple \\ \hline
 Interpretation & Orange \\ \hline
-Small Talk & Gray \\ \hline
+Idol talk & Gray \\ \hline
   \end{tabular}
    \end{center}
  \end{table}
 
- In the bottom left of Figure \ref{fig:fig6}, an expert counselor can correct the classification results manually. In the bottom right of Figure \ref{fig:fig6}, all the text data content in the counseling conversation is displayed. We implemented a mouse over function in the bar chart that displays the classification of questions to the client by the beginner counselor. For ease of viewing, each statement was displayed with black letters, instead of the color corresponding to the color of the chart and was surrounded by a corner bracket??of color corresponding to the area of the chart.
+ In the bottom left of Figure \ref{fig:fig6}, an expert counselor can correct the classification results manually. In the bottom right of Figure \ref{fig:fig6}, all the text data content in the counseling conversation is displayed. We implemented a mouse over function in the bar chart that displays the classification of questions to the client by the beginner counselor. For ease of viewing, each statement was displayed with black letters, instead of the color corresponding to the color of the chart and was surrounded by a corner bracket of color corresponding to the area of the chart.
  
  The client's problems were categorized according to one of three groups; "work," "friendship," and "love and family," which were further defined using Adlerian psychology. However, additional classification categories such as "self" and "spiritual" have been suggested by an expert counselor. We decided that problems such as "self" or "spiritual" were difficult to fully understand or define and will need to be addressed in future research.
 
 
-\subsection{Visualization of the time-series flow of behavior arrow in character relationship chart}
+\subsection{Circular-link visualization of the time-series flow of behavior arrow in human relationship chart}
 
-  Figure \ref{fig:fig1} shows the image of the time-series human relationship chart. By moving the lower slider, we can display the human relationship chart from sentence to sentence along the time-series. Moreover, as shown in Figure \ref{fig:fig2}, by making it possible to display the sentence of the corresponding verb, we can know which original text the arrow means. We used D3.js\cite{vand3} for the visualization.
+  Figure \ref{fig:fig1} shows the image of the time-series human relationship chart. By moving the lower slider, we can display the human relationship chart from sentence to sentence along the time-series. Moreover, as shown in Figure \ref{fig:fig2}, we can know which original text the arrow means by making it possible to display the sentence of the corresponding verb. We used D3.js\cite{vand3} for the visualization.
 
  \begin{figure}
    \begin{center}
      \includegraphics[width=\linewidth]{fig1.png}
    \end{center}
-   \caption{An example of the time-series visualization of our proposed character relationship chart with behavior arrow from the dependency analysis of the text data. The arrows show behavior. Circle shows behavior that means (1) or (3) of Figure \ref{fig:fig2}. Gray arrow means (4) or (5). Red arrow means (2). Slider selects the visualized area of the input text. If we click a circle or a arrow, the original texts including verbs which the circle or the arrow appear at the left side of the screen}
+   \caption{An example of the time-series visualization of our proposed human relationship chart with behavior arrow from the dependency analysis of the text data. The arrows show behavior. Circle shows behavior that means (1) or (3) of Figure \ref{fig:fig2}. Gray arrow means (4) or (5). Red arrow means (2). Slider selects the visualized area of the input text. If we click a circle or a arrow, the original texts including verbs which the circle or the arrow appear at the left side of the screen}
    \label{fig:fig1}
  \end{figure}
 
-\subsection{User Evaluation}
-\subsubsection{Visualization of the flow of conversation with classification of questions and answers}
+\subsection{User Evaluation and Discussion}
+\subsubsection{Bar-chart visualization of the flow of conversation with classification of questions and answers}
 
 We evaluated the function of this system with expert counselors as the system users and discussed their review comments during the evaluation. The purpose of the evaluation was to discover answers to the following questions:
   \begin{itemize}
@@ -315,7 +319,7 @@ We evaluated the function of this system with expert counselors as the system us
 We performed a system evaluation with three expert counselors, using a visualization system as a rating scale. Their average age was 55 years old. Their average amount of clinical experience was 29 years.
 First, the evaluators confirmed the flow of the counseling conversation by moving the mouse cursor to the time-series visualization result.
 
- We also asked some open-ended written questions in this evaluation. According to the answers to the question "What kind of guidance can be given to the counselor when viewing the bar chart?", we decided that various recommendations can be made to a new counselor by reviewing changes in the distribution of utterance, when the conversation in analyzed as a whole.
+ We also asked some open-ended written questions in this evaluation. According to the answers to the question "What kind of guidance can be given to the counselor when viewing the bar chart?", we decided that various recommendations can be made to a beginner counselor by reviewing changes in the distribution of utterance, when the conversation in analyzed as a whole.
 
  In addition, we received user comments saying:
 
@@ -323,21 +327,22 @@ First, the evaluators confirmed the flow of the counseling conversation by movin
 \item In order to understand that it is a prerequisite that it is assumed that a consultative relationship is established between the counselor and the client
 \item Based on this result, it can be used as a material for rebuilding counseling
 \end{itemize}
-In view of the above, we got a comment that, when the expert counselor educates a beginner counselor, the system could show him the relationships between the beginner counselor's questions and the client's answers which he could not grasp by just reading a conversation transcript. From the above results, as a whole, we think that it is concluded by answers from multiple experienced counselors that the flow of conversation is properly visualized so that this system educate the beginner counselors with the relationships between the beginner counselor's questions and the client's answers which he could not grasp by just reading a conversation transcript.
 
-\subsubsection{Visualization of the time-series flow of behavior arrow in character relationship chart}
+we got the expert counselors' comments that it can be confirmed whether the beginner counselor talked too much in the session by a bar-chart of the visualization result of the flow of conversation, so the supervision will be improved. In view of the above, we got a comment that the system could show him the relationships between the beginner counselor's questions and the client's answers which he could not grasp by just reading a counseling transcript when the expert counselor educates a beginner counselor. From the above results, as a whole, we think that it is concluded by answers from multiple expert counselors that the flow of conversation is properly visualized so that this system educate the beginner counselors with the relationships between the beginner counselor's questions and the client's answers which he could not grasp by just reading a counseling transcript. We conclude that the supervision will be improved by a visual analytic system to understand counselling transcripts.
 
-The expert counselor said that he discovered that the idea "I want B to follow my will" disappeared and self-referenced tasks increased as cognitive correction progressed. This progress could be confirmed by changing the quantity of arrows and confirms the quality in the original text display. We decided that our proposed character chart visualization helps counselors to discover when the client's cognitive correction is progressing and, furthermore, how those corrections are made.
+\subsubsection{Circular-link visualization of the time-series flow of behavior arrow in human relationship chart}
 
- In view of the above, we got a comment that, the system could show the counselors which the client's behaviors and the surrounded people's behaviors the client's mentioned, which the counselor's could not grasp by just reading a conversation transcript. We consider that our proposed character relationship chart visualization helps counselors find out that some kind of client's cognitive fixes were made with the new information about which the client's behaviors and the surrounded people's behaviors the client's mentioned, which the counselor's could not grasp by just reading a conversation transcript.
+The expert counselor said that he discovered that the idea "I want B to follow my will" disappeared and self-referenced tasks increased as cognitive correction progressed. This progress could be confirmed by changing the quantity of arrows and confirms the quality in the original text display. We got a comments that it can be confirmed whether her/his situation changes for the better or not by the circular-link visualization in characters about whom the client talked. We decided that our proposed character chart visualization helps counselors to discover when the client's cognitive correction is progressing and, furthermore, how those corrections are made.
 
-\section{Conclusion and future work}
+ In view of the above, we got a comment that the system could show the counselors which the client's behaviors and the surrounded people's behaviors the client's mentioned, which the counselor's could not grasp by just reading a counseling transcript. We consider that our proposed human relationship chart visualization helps counselors find out that some kind of client's cognitive fixes were made with the new information about which the client's behaviors and the surrounded people's behaviors the client's mentioned, which the counselor's could not grasp by just reading a counseling transcript. We conclude that it can be confirmed whether her/his situation changes for the better or not by the circular-link visualization in characters about whom the client talked.
 
- This paper concludes that various recommendations can be made to a new counselor by reviewing changes in the distribution of utterance, when the counseling conversation is analyzed as a whole. The feedback provided by several experienced counselors demonstrates that the flow of conversation is properly visualized and that this system can help to educate and train a new counselor. Furthermore, this flow visualization system could be applied to conversations other than counseling, such as job interviews.
+\section{Conclusion and Future Work}
 
- In addition, by visualizing the subject and object of the action in the text with arrows, it becomes possible to visualize the data by referring to the behavior of people around the client or the client's own behavior. We conclude that counselors can assess the progression of the client's cognitive correction by using our proposed time-series human relationship chart, with additional behavior arrows. Our time-series visualization of the direction of behavior using human relationship charts could be applied to fields other than counseling. For example, our visualization tool could track the development of characters in texts, such as a novel or film script.
+ This paper conclude that the supervision will be improved. We found that, by a bar chart-based visualization method developed to  understand the counselling conversation flow, the supervision will be improved by a visual analytic system to understand counselling transcripts. We conclude that various recommendations can be made to a beginner counselor by reviewing changes in the distribution of utterance, when the counseling conversation is analyzed as a whole. The feedback provided by several expert counselors demonstrates that the flow of conversation is properly visualized and that this system can help to educate and train a beginner counselor. Furthermore, this flow visualization system could be applied to conversations other than counseling, such as job interviews.
 
- Our proposed system can be applied in languages other than Japanese, such as English, by changing the language used for processing.
+ In addition, by visualizing the subject and object of the action in the text with arrows, it becomes possible to visualize the data by referring to the behavior of people around the client or the client's own behavior. We can find that it can be confirmed whether her/his situation changes for the better or not with the circular-link visualization in characters about whom the client talked. Therefore, we conclude that the limitation in the current supervision for beginner counselors about how to conduct successful counseling conversations can be relaxed by the visual analytic system to understand the counseling transcripts. We conclude that counselors can assess the progression of the client's cognitive correction by using our proposed time-series human relationship chart, with additional behavior arrows. Our time-series visualization of the direction of behavior using human relationship charts could be applied to fields other than counseling. For example, our visualization tool could track the development of characters in texts, such as a novel or film script.
+
+ Our proposed systems can be applied in languages other than Japanese, such as English, by changing the language used for processing.
 
 %    \begin{table}
 %   \caption{治療者と来談者の発言の全ての文の数，単語数，文字数とその比}
@@ -355,7 +360,7 @@ The expert counselor said that he discovered that the idea "I want B to follow m
 %   \label{fig:0801}
 % \end{figure}
 
-
+%\acknowledgements{Thank you}
 
 
 %%

@@ -4,14 +4,14 @@
 \BOOKMARK [1][-]{section.4}{Pre-procedure of proposed visualization systems}{}% 4
 \BOOKMARK [2][-]{subsection.4.1}{Fundamentals of counseling}{section.4}% 5
 \BOOKMARK [3][-]{subsubsection.4.1.1}{Counselor education}{subsection.4.1}% 6
-\BOOKMARK [3][-]{subsubsection.4.1.2}{client analysis}{subsection.4.1}% 7
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Client analysis}{subsection.4.1}% 7
 \BOOKMARK [2][-]{subsection.4.2}{System design}{section.4}% 8
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.4.2}% 9
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Visualization of the time-series flow of behavior arrows in character relationship chart}{subsection.4.2}% 10
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Bar-chart visualization of the flow of conversation with classification of questions and answers}{subsection.4.2}% 9
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Visualization of the time-series flow of behavior arrows in human relationship chart}{subsection.4.2}% 10
 \BOOKMARK [1][-]{section.5}{Visualization results}{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Visualization of the flow of conversation with classification of questions and answers}{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{section.5}% 13
-\BOOKMARK [2][-]{subsection.5.3}{User Evaluation}{section.5}% 14
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Visualization of the flow of conversation with classification of questions and answers}{subsection.5.3}% 15
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Visualization of the time-series flow of behavior arrow in character relationship chart}{subsection.5.3}% 16
-\BOOKMARK [1][-]{section.6}{Conclusion and future work}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Bar-chart visualization of the flow of conversation with classification of questions and answers}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Circular-link visualization of the time-series flow of behavior arrow in human relationship chart}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{User Evaluation and Discussion}{section.5}% 14
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Bar-chart visualization of the flow of conversation with classification of questions and answers}{subsection.5.3}% 15
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Circular-link visualization of the time-series flow of behavior arrow in human relationship chart}{subsection.5.3}% 16
+\BOOKMARK [1][-]{section.6}{Conclusion and Future Work}{}% 17
